@@ -1,4 +1,4 @@
-# Projekt Analizy Danych - Bilans Kapitału Ludzkiego
+# Model badający zmienne wpływające na pensje Polaków w 2021 roku
 
 ## Folder Artefacts
 
