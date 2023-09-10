@@ -1,0 +1,19 @@
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:                 pensja   No. Observations:                  935
+Model:                            GLM   Df Residuals:                      931
+Model Family:                Gaussian   Df Model:                            3
+Link Function:                    log   Scale:                         0.23565
+Method:                          IRLS   Log-Likelihood:                -648.98
+Date:                Sun, 10 Sep 2023   Deviance:                       219.39
+Time:                        23:04:13   Pearson chi2:                     219.
+No. Iterations:                     5   Pseudo R-squ. (CS):             0.1180
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept         2.0143      0.008    238.616      0.000       1.998       2.031
+edu_lata          0.0049      0.001      9.648      0.000       0.004       0.006
+doswiadczenie     0.0027      0.001      4.603      0.000       0.002       0.004
+dosw_sqrt     -5.129e-05   1.31e-05     -3.923      0.000   -7.69e-05   -2.57e-05
+=================================================================================

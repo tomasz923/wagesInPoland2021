@@ -4,7 +4,7 @@ Dep. Variable:                 pensja   Pseudo R-squared:               0.2687
 Model:                       QuantReg   Bandwidth:                       806.2
 Method:                 Least Squares   Sparsity:                        8042.
 Date:                Sun, 10 Sep 2023   No. Observations:                  935
-Time:                        22:11:25   Df Residuals:                      906
+Time:                        22:21:58   Df Residuals:                      906
                                         Df Model:                           28
 ===============================================================================================
                                   coef    std err          t      P>|t|      [0.025      0.975]
