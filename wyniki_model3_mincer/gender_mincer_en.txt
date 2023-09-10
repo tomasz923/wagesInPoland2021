@@ -5,8 +5,8 @@ Model:                            GLM   Df Residuals:                      923
 Model Family:                Gaussian   Df Model:                           11
 Link Function:                    log   Scale:                         0.19422
 Method:                          IRLS   Log-Likelihood:                -554.58
-Date:                Sun, 10 Sep 2023   Deviance:                       179.26
-Time:                        23:36:08   Pearson chi2:                     179.
+Date:                Mon, 11 Sep 2023   Deviance:                       179.26
+Time:                        00:51:27   Pearson chi2:                     179.
 No. Iterations:                     5   Pseudo R-squ. (CS):             0.3116
 Covariance Type:            nonrobust                                         
 ======================================================================================
