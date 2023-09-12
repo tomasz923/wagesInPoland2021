@@ -1,0 +1,12 @@
+              Variable        VIF
+0        doswiadczenie  21.276635
+1            dosw_sqrt  16.369530
+2              kobieta   2.092762
+3        czy_ma_mature   1.490451
+4           czy_ma_lic   1.157053
+5           czy_ma_inz   1.042236
+6           czy_ma_mgr   1.534982
+7        czy_ma_mgrinz   1.111825
+8   czy_ma_podyplomowe   1.186927
+9           czy_ma_mba   1.007681
+10          czy_ma_phd   1.002963

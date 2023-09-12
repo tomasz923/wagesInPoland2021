@@ -1,0 +1,4 @@
+        Variable       VIF
+0       edu_lata  3.561506
+1  doswiadczenie  2.474861
+2        kobieta  2.094765

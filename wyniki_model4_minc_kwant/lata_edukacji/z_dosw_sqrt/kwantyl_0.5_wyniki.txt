@@ -1,0 +1,20 @@
+                         QuantReg Regression Results                          
+==============================================================================
+Dep. Variable:                      y   Pseudo R-squared:               0.1427
+Model:                       QuantReg   Bandwidth:                      0.1677
+Method:                 Least Squares   Sparsity:                       0.8591
+Date:                Tue, 12 Sep 2023   No. Observations:                  935
+Time:                        22:14:06   Df Residuals:                      930
+                                        Df Model:                            4
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept         7.6189      0.061    125.551      0.000       7.500       7.738
+edu_lata          0.0442      0.004     11.775      0.000       0.037       0.052
+doswiadczenie     0.0132      0.004      3.190      0.001       0.005       0.021
+dosw_sqrt        -0.0002   9.35e-05     -2.437      0.015      -0.000   -4.44e-05
+kobieta          -0.3365      0.029    -11.656      0.000      -0.393      -0.280
+=================================================================================
+
+The condition number is large, 3.24e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
