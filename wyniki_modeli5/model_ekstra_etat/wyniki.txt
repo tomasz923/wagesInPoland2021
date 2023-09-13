@@ -3,19 +3,19 @@
 Dep. Variable:                 pensja   No. Observations:                  744
 Model:                            GLM   Df Residuals:                      738
 Model Family:                Gaussian   Df Model:                            5
-Link Function:                    log   Scale:                         0.16059
-Method:                          IRLS   Log-Likelihood:                -372.34
-Date:                Thu, 14 Sep 2023   Deviance:                       118.52
-Time:                        01:07:47   Pearson chi2:                     119.
-No. Iterations:                     6   Pseudo R-squ. (CS):             0.3321
+Link Function:                    log   Scale:                      5.8844e+06
+Method:                          IRLS   Log-Likelihood:                -6851.4
+Date:                Thu, 14 Sep 2023   Deviance:                   4.3427e+09
+Time:                        01:43:02   Pearson chi2:                 4.34e+09
+No. Iterations:                     9   Pseudo R-squ. (CS):             0.2386
 Covariance Type:            nonrobust                                         
 =================================================================================
                     coef    std err          z      P>|z|      [0.025      0.975]
 ---------------------------------------------------------------------------------
-Intercept         1.9825      0.018    108.994      0.000       1.947       2.018
-edukacja_lata     0.0057      0.000     12.178      0.000       0.005       0.007
-doswiadczenie     0.0022      0.001      3.919      0.000       0.001       0.003
-dosw_sqrt     -4.069e-05    1.3e-05     -3.131      0.002   -6.62e-05   -1.52e-05
-kobieta          -0.0481      0.004    -13.008      0.000      -0.055      -0.041
-etat              0.0494      0.017      2.850      0.004       0.015       0.083
+Intercept         7.8342      0.194     40.459      0.000       7.455       8.214
+edukacja_lata     0.0581      0.006     10.353      0.000       0.047       0.069
+doswiadczenie     0.0306      0.007      4.233      0.000       0.016       0.045
+dosw_sqrt        -0.0006      0.000     -3.538      0.000      -0.001      -0.000
+kobieta          -0.5231      0.046    -11.287      0.000      -0.614      -0.432
+etat             -0.3529      0.172     -2.047      0.041      -0.691      -0.015
 =================================================================================

@@ -3,18 +3,18 @@
 Dep. Variable:                 pensja   No. Observations:                  744
 Model:                            GLM   Df Residuals:                      739
 Model Family:                Gaussian   Df Model:                            4
-Link Function:                    log   Scale:                         0.16217
-Method:                          IRLS   Log-Likelihood:                -376.48
-Date:                Thu, 14 Sep 2023   Deviance:                       119.84
-Time:                        00:47:45   Pearson chi2:                     120.
-No. Iterations:                     5   Pseudo R-squ. (CS):             0.3221
+Link Function:                    log   Scale:                      5.9007e+06
+Method:                          IRLS   Log-Likelihood:                -6852.9
+Date:                Thu, 14 Sep 2023   Deviance:                   4.3606e+09
+Time:                        01:39:44   Pearson chi2:                 4.36e+09
+No. Iterations:                     8   Pseudo R-squ. (CS):             0.2350
 Covariance Type:            nonrobust                                         
 =================================================================================
                     coef    std err          z      P>|z|      [0.025      0.975]
 ---------------------------------------------------------------------------------
-Intercept         2.0290      0.008    255.632      0.000       2.013       2.045
-edukacja_lata     0.0058      0.000     12.203      0.000       0.005       0.007
-doswiadczenie     0.0025      0.001      4.299      0.000       0.001       0.004
-dosw_sqrt     -4.506e-05    1.3e-05     -3.473      0.001   -7.05e-05   -1.96e-05
-kobieta          -0.0491      0.004    -13.259      0.000      -0.056      -0.042
+Intercept         7.5064      0.103     72.718      0.000       7.304       7.709
+edukacja_lata     0.0577      0.006     10.241      0.000       0.047       0.069
+doswiadczenie     0.0291      0.007      4.038      0.000       0.015       0.043
+dosw_sqrt        -0.0005      0.000     -3.363      0.001      -0.001      -0.000
+kobieta          -0.5120      0.046    -11.056      0.000      -0.603      -0.421
 =================================================================================
