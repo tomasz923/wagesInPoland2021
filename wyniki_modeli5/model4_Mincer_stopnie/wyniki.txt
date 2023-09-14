@@ -1,0 +1,37 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       stawka_godzinowa   R-squared:                       0.262
+Model:                            OLS   Adj. R-squared:                  0.251
+Method:                 Least Squares   F-statistic:                     23.63
+Date:                Thu, 14 Sep 2023   Prob (F-statistic):           8.44e-42
+Time:                        21:37:52   Log-Likelihood:                -388.24
+No. Observations:                 744   AIC:                             800.5
+Df Residuals:                     732   BIC:                             855.8
+Df Model:                          11                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const                  2.9002      0.051     56.608      0.000       2.800       3.001
+doswiadczenie          0.0130      0.005      2.712      0.007       0.004       0.022
+dosw_sqrt             -0.0002      0.000     -1.940      0.053      -0.000    2.48e-06
+kobieta               -0.3269      0.032    -10.251      0.000      -0.389      -0.264
+czy_ma_mature          0.1981      0.040      4.962      0.000       0.120       0.276
+czy_ma_lic             0.2226      0.069      3.237      0.001       0.088       0.358
+czy_ma_inz             0.5334      0.093      5.761      0.000       0.352       0.715
+czy_ma_mgr             0.3778      0.044      8.541      0.000       0.291       0.465
+czy_ma_mgrinz          0.5690      0.070      8.093      0.000       0.431       0.707
+czy_ma_podyplomowe     0.3865      0.068      5.703      0.000       0.253       0.520
+czy_ma_mba             1.5269      0.292      5.224      0.000       0.953       2.101
+czy_ma_phd             0.6957      0.413      1.685      0.092      -0.115       1.506
+==============================================================================
+Omnibus:                      177.928   Durbin-Watson:                   1.998
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              633.668
+Skew:                           1.100   Prob(JB):                    2.52e-138
+Kurtosis:                       6.950   Cond. No.                     1.98e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.98e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

@@ -1,0 +1,27 @@
+                         QuantReg Regression Results                          
+==============================================================================
+Dep. Variable:                      y   Pseudo R-squared:               0.1891
+Model:                       QuantReg   Bandwidth:                      0.1471
+Method:                 Least Squares   Sparsity:                        1.181
+Date:                Thu, 14 Sep 2023   No. Observations:                  744
+Time:                        21:46:11   Df Residuals:                      732
+                                        Df Model:                           11
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+Intercept              3.1006      0.065     47.416      0.000       2.972       3.229
+doswiadczenie          0.0072      0.006      1.220      0.223      -0.004       0.019
+dosw_sqrt          -5.589e-05      0.000     -0.425      0.671      -0.000       0.000
+kobieta               -0.3491      0.041     -8.501      0.000      -0.430      -0.268
+czy_ma_mature          0.1955      0.050      3.888      0.000       0.097       0.294
+czy_ma_lic             0.2655      0.086      3.076      0.002       0.096       0.435
+czy_ma_inz             0.7955      0.119      6.690      0.000       0.562       1.029
+czy_ma_mgr             0.4088      0.056      7.240      0.000       0.298       0.520
+czy_ma_mgrinz          0.7861      0.091      8.653      0.000       0.608       0.964
+czy_ma_podyplomowe     0.4102      0.085      4.828      0.000       0.243       0.577
+czy_ma_mba             1.5139      0.468      3.232      0.001       0.594       2.434
+czy_ma_phd             0.5205      0.299      1.739      0.082      -0.067       1.108
+======================================================================================
+
+The condition number is large, 1.98e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
