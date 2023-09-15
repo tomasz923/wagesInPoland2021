@@ -1,20 +1,30 @@
-                 Generalized Linear Model Regression Results                  
+                            OLS Regression Results                            
 ==============================================================================
-Dep. Variable:     pensja_potencjalna   No. Observations:                  744
-Model:                            GLM   Df Residuals:                      739
-Model Family:                Gaussian   Df Model:                            4
-Link Function:                    log   Scale:                      3.3427e+07
-Method:                          IRLS   Log-Likelihood:                -7498.0
-Date:                Thu, 14 Sep 2023   Deviance:                   2.4703e+10
-Time:                        01:41:03   Pearson chi2:                 2.47e+10
-No. Iterations:                    12   Pseudo R-squ. (CS):            0.07969
+Dep. Variable:       stawka_godzinowa   R-squared:                       0.233
+Model:                            OLS   Adj. R-squared:                  0.229
+Method:                 Least Squares   F-statistic:                     56.13
+Date:                Fri, 15 Sep 2023   Prob (F-statistic):           2.35e-41
+Time:                        02:01:11   Log-Likelihood:                -402.61
+No. Observations:                 744   AIC:                             815.2
+Df Residuals:                     739   BIC:                             838.3
+Df Model:                           4                                         
 Covariance Type:            nonrobust                                         
 =================================================================================
-                    coef    std err          z      P>|z|      [0.025      0.975]
+                    coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------
-Intercept         7.3537      0.229     32.062      0.000       6.904       7.803
-edukacja_lata     0.0826      0.013      6.511      0.000       0.058       0.108
-doswiadczenie     0.0243      0.016      1.565      0.118      -0.006       0.055
-dosw_sqrt        -0.0005      0.000     -1.400      0.161      -0.001       0.000
-kobieta          -0.6216      0.102     -6.082      0.000      -0.822      -0.421
-=================================================================================
+const             2.5687      0.067     38.529      0.000       2.438       2.700
+edukacja_lata     0.0454      0.004     11.285      0.000       0.037       0.053
+doswiadczenie     0.0122      0.005      2.531      0.012       0.003       0.022
+dosw_sqrt        -0.0002      0.000     -1.839      0.066      -0.000    1.36e-05
+kobieta          -0.3624      0.031    -11.556      0.000      -0.424      -0.301
+==============================================================================
+Omnibus:                      193.872   Durbin-Watson:                   1.995
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              693.958
+Skew:                           1.200   Prob(JB):                    2.04e-151
+Kurtosis:                       7.077   Cond. No.                     3.16e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.16e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
